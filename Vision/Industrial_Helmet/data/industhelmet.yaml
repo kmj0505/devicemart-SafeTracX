@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['industrial-safety-helmet', 'kask']
+
+roboflow:
+  workspace: project
+  project: industrial-safety-helmet
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/project/industrial-safety-helmet/dataset/2

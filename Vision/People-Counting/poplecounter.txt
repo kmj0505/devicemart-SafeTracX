@@ -1,0 +1,10 @@
+#anaconda 가상환경 재설정
+https://somjang.tistory.com/entry/Pythonvirtualenv-virtualenvwrapper-설치-및-사용법
+->Ubuntu - 가상환경 만들기
+ubuntu@ubuntu03:~/Project/People-Counting-in-Real-Time-master$ source env/bin/activate 가상환경 들어가기
+
+#세부사항
+https://github.com/saimj7/People-Counting-in-Real-Time
+
+#실행코드
+(env) ubuntu@ubuntu03:~/Project/People-Counting-in-Real-Time-master$ python Run.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel
